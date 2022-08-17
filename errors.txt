@@ -1,8 +1,7 @@
-index.js
 
 paswword card '1324'
 paswword card '1521'
 paswword card '9324'
 paswword card '1326'
 paswword card '1394'
-paswword card '1024'
+paswword card '1324'

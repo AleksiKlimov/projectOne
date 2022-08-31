@@ -17,12 +17,21 @@
   </head>
   <body>
     <div class="container">
-      <div class="flex-row sticky-top">
+      <div class="sticky-top">
         <nav class="flex-row rtl-3"  aria-label="...">
           <ul class="pagination">
           </ul>
         </nav>
-        <button
+      
+     </div>
+      <div class="position-relative mb-3 w-75">
+        <input
+          type="text"
+          id="elastic"
+          class="form-control w-50 mb-2"
+          placeholder="searching posts... "
+        />
+          <button
           type="button"
           class="btn btn-primary position-absolute top-0 start-50"
           data-bs-toggle="modal"
@@ -30,14 +39,6 @@
         >
           new post
         </button>
-     </div>
-      <div class="position-relative mb-3 w-75">
-        <input
-          type="text"
-          id="elastic"
-          class="form-control w-25 mb-2"
-          placeholder="searching posts... "
-        />
         <div
           class="modal fade"
           id="exampleModal"

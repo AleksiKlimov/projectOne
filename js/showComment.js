@@ -20,8 +20,8 @@ async function mainComments(targetElem) {
   let comments = await response.json();
   comments.forEach(function (item) {
     const commHTML = `<div userid="${item.postId}" class="list w-75 border mb-1 border-primary"><small>comment num: ${item.id}</small>
-        <small class=" rounded mb-1">email: ${item.email}</small>
-        <small class=" mb-1">title: ${item.name}</small>
+        <small class="mb-1">email: ${item.email}</small>
+        <small class="mb-1">title: ${item.name}</small>
      <small>comment: ${item.body}</small>
      </a>
      <div class="button">
